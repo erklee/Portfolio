@@ -150,7 +150,14 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <style>
+                            .fit-image {
+                                height: 300px;
+                                width: 300px;
+                                object-fit: cover; /* This will cover the space, possibly cropping the image */
+                            }
+                          </style>
+                        <img src="images/teammates.png" class="fit-image">
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -180,7 +187,14 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <style>
+                            .fit-image {
+                                height: 300px;
+                                width: 300px;
+                                object-fit: contain; /* This will cover the space, possibly cropping the image */
+                            }
+                          </style>
+                        <img src="images/sometrails.png" class="fit-image">
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -196,6 +210,41 @@
                         
                         <div>
                             <a href="https://github.com/erklee/SomeTrails?tab=readme-ov-file"               
+                            aria-label="source code"
+                            class="link link--icon"
+                            target="_blank" 
+                            rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <style>
+                            .fit-image {
+                                height: 300px;
+                                width: 300px;
+                                object-fit: contain; 
+                                background-color: #f0f0f0;
+                            }
+                          </style>
+                        <img src="images/currency_world.png" class="fit-image">
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>CurrencyWorld</h3>
+                        <p>
+                            CurrencyWorld is a data visualization showing the currency exchange rate of every country's currency based on the United States Dollar. The technologies used in this project was HTML, CSS, and vanilla Javascript.
+                        </p>
+                        <a href="https://erklee.github.io/Currency_World/"               
+                        aria-label="source code"
+                        class="link link--icon"
+                        target="_blank" 
+                        rel="noopener noreferrer">View Project</a>
+                        
+                        <div>
+                            <a href="https://github.com/erklee/Currency_World"               
                             aria-label="source code"
                             class="link link--icon"
                             target="_blank" 
